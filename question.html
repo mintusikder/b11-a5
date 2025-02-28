@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.9/daisyui.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="bg-gray-100 h-[800px]">
+    <div class="max-w-7xl mx-auto">
+      <!-- navBar -->
+      <div class="navbar bg-base-100 shadow-sm mb-6">
+        <div class="flex-1">
+          <div class="flex">
+            <img class="w-10" src="./assets/logo.png" alt="" />
+            <a class="btn btn-ghost text-xl">DevBoard</a>
+          </div>
+        </div>
+        <a id="back-desk" href="../index.html">
+          <button id="back-desk" class="btn btn-primary">Back to Desk</button>
+        </a>
+      </div> 
+      <!-- question -->
+      <h2 class="text-center text-3xl font-bold mb-4">Blog</h2>
+      <!-- question-1 -->
+      <div class="collapse bg-base-100 border-base-300 border">
+        <input type="checkbox" />
+        <div class="collapse-title font-semibold">
+          Question-1: What are the different ways to select an element in the
+          DOM?
+        </div>
+        <div class="collapse-content text-sm">
+          1.getElementById <br />
+          2.getElementsByClassName <br />
+          3.getElementsByTagName <br />
+          4.querySelector <br />
+          5.querySelectorAll
+        </div>
+      </div>
+      <!-- question-2 -->
+      <div class="collapse bg-base-100 border-base-300 border">
+        <input type="checkbox" />
+        <div class="collapse-title font-semibold">
+          Question-2: What is the difference between innerHTML, innerText, and
+          textContent ?
+        </div>
+        <div class="collapse-content text-sm">
+          1. innerHTML: Returns or sets the HTML content inside an element,
+          including tags. <br />
+          2. innerText: Returns or sets the visible text content, ignoring
+          hidden elements and respecting CSS styling. <br />
+          3. textContent: Returns or sets all text content, including hidden
+          elements, without interpreting HTML tags.
+        </div>
+      </div>
+      <!-- question-3 -->
+      <div class="collapse bg-base-100 border-base-300 border">
+        <input type="checkbox" />
+        <div class="collapse-title font-semibold">
+          Question-3: What is event delegation in the DOM?
+        </div>
+        <div class="collapse-content text-sm">
+          uses a single event listener on a parent element to handle events for
+          its children, leveraging event bubbling. This is efficient for dynamic
+          content and reduces the need for multiple listeners.
+        </div>
+      </div>
+      <!-- question-4 -->
+      <div class="collapse bg-base-100 border-base-300 border">
+        <input type="checkbox" />
+        <div class="collapse-title font-semibold">
+          Question-4: What is event bubbling in the DOM?
+        </div>
+        <div class="collapse-content text-sm">
+          is a behavior in the DOM where an event triggered on a child element
+          propagates (bubbles) up through its parent elements in the hierarchy.
+          For example, if a button inside a div is clicked, the click event
+          bubbles up to the div, then to its parent, and so on, until it reaches
+          the document object. This allows handling events at a higher level in
+          the DOM tree.
+        </div>
+      </div>
+      <!-- question-5 -->
+      <div class="collapse bg-base-100 border-base-300 border">
+        <input type="checkbox" />
+        <div class="collapse-title font-semibold">
+          Question-5: How do you create, add, and remove elements using
+          JavaScript?
+        </div>
+        <div class="collapse-content text-sm">
+          1. Create: Use document.createElement('tagName'). <br />
+          2. Add: Use parentElement.appendChild(newElement) or
+          parentElement.insertBefore(newElement, referenceElement). <br />
+          3. Remove: Use parentElement.removeChild(childElement) or
+          childElement.remove().
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
