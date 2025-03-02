@@ -11,6 +11,7 @@ function changeColor() {
 document.getElementById("card-btn").addEventListener("click", function () {
   document.getElementById("text-add").innerText = "Fix Mobile Button Issue";
   this.disabled = true;
+  alert("add success")
   //increase
   const increaseElement = document.getElementById("increase");
   let currentValue = parseInt(increaseElement.innerText, 10);
