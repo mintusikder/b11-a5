@@ -11,7 +11,7 @@ function changeColor() {
 document.getElementById("card-btn").addEventListener("click", function () {
   document.getElementById("text-add").innerText = "Fix Mobile Button Issue";
   this.disabled = true;
-  alert("add success")
+  alert("Border Add SuccessFull")
   //increase
   const increaseElement = document.getElementById("increase");
   let currentValue = parseInt(increaseElement.innerText, 10);
@@ -24,6 +24,7 @@ document.getElementById("card-btn").addEventListener("click", function () {
 document.getElementById("card-btn-2").addEventListener("click", function () {
   document.getElementById("text-add-2").innerText = "Optimize Home page";
   this.disabled = true;
+  alert("Border Add SuccessFull")
   //increase
   const increaseElement = document.getElementById("increase");
   let currentValue = parseInt(increaseElement.innerText, 10);
@@ -36,6 +37,7 @@ document.getElementById("card-btn-2").addEventListener("click", function () {
 document.getElementById("card-btn-3").addEventListener("click", function () {
   document.getElementById("text-add-3").innerText = "Add Dark Mode";
   this.disabled = true;
+  alert("Border Add SuccessFull")
   //increase
   const increaseElement = document.getElementById("increase");
   let currentValue = parseInt(increaseElement.innerText, 10);
@@ -48,6 +50,7 @@ document.getElementById("card-btn-3").addEventListener("click", function () {
 document.getElementById("card-btn-4").addEventListener("click", function () {
   document.getElementById("text-add-4").innerText = "Add new emoji 🤲";
   this.disabled = true;
+  alert("Border Add SuccessFull")
   //increase
   const increaseElement = document.getElementById("increase");
   let currentValue = parseInt(increaseElement.innerText, 10);
@@ -60,6 +63,7 @@ document.getElementById("card-btn-4").addEventListener("click", function () {
 document.getElementById("card-btn-5").addEventListener("click", function () {
   document.getElementById("text-add-5").innerText = "Integrate OpenAI API";
   this.disabled = true;
+  alert("Border Add SuccessFull")
   //increase
   const increaseElement = document.getElementById("increase");
   let currentValue = parseInt(increaseElement.innerText, 10);
@@ -72,6 +76,7 @@ document.getElementById("card-btn-5").addEventListener("click", function () {
 document.getElementById("card-btn-6").addEventListener("click", function () {
   document.getElementById("text-add-6").innerText = "Improve Job searching";
   this.disabled = true;
+  alert("Border Add SuccessFull")
   //increase
   const increaseElement = document.getElementById("increase");
   let currentValue = parseInt(increaseElement.innerText, 10);
